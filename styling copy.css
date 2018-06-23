@@ -1,0 +1,1348 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------------------------------------------------------------General Styles-------------------*/
+
+@font-face {
+
+    font-family: 'Biko_Regular';
+    src: local(font name), url("fonts/Biko_Regular.otf");
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+body {
+
+	font-family: 'Biko_Regular';
+	background-color: rgb(255, 255, 255);
+	
+
+}
+
+a {
+
+    text-decoration: none;
+	color: black;
+
+}
+
+h1 {
+
+	font-size: 8em;
+	font-weight: bolder;
+	line-height: .8em;
+
+}
+
+h2 {
+
+	font-size: 3em;
+	font-weight: 500;
+
+}
+
+h3 {
+
+	font-size: 2em;
+	font-weight: 500; 
+
+}
+
+p {
+
+	font-size: 1.2em;
+	font-weight: 500;
+
+}
+
+quote {
+
+	font-size: 2em;
+	font-weight: 500;
+	line-height: 1.5em;
+
+}
+
+.section {
+
+	
+	padding: 0px 100px;
+	background-color: rgb(236, 190, 39);
+	box-shadow: 0px 0px 20px rgb(99, 99, 99);
+
+}
+
+.section2 {
+
+	padding-top: 0px;
+
+}
+
+.site-container {
+
+	width: 1050px;
+	margin: auto;
+
+}
+
+/*----------------------------------------------------------------- Navigation Bar -------------*/
+
+nav {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0px;
+	background-color: rgb(236, 190, 39);
+	border-bottom: solid 10px rgb(202, 83, 83);
+
+}
+
+nav ul {
+
+	display: flex;
+
+}
+
+nav li {
+
+	padding: 0 25px;
+
+}
+
+nav li a {
+
+	font-size: .95em;
+
+}
+
+nav a:hover{
+
+	color: white;
+	transition: .1s ease-in-out;
+
+}
+
+/*----------------------------------------------------------------- Head Banner ------------------*/
+
+.head-banner {
+
+	padding: 80px 0;
+	background-color: rgb(236, 190, 39);
+	
+
+}
+
+.head-banner p {
+
+	font-size: 1.3em;
+	font-weight: 500;
+	padding: 20px 0 50px;
+	border-bottom: solid 10px rgb(202, 83, 83);
+
+}
+
+/*----------------------------------------------------------------- Articles Section -------------*/
+
+.home-page {
+
+	display: flex;
+	justify-content: flex-end;	
+	align-content: flex-end;
+	
+
+}
+
+/* 
+
+.side-quote {
+
+	display: flex column;
+	align-items: baseline;
+	width: 400px;
+	padding: 208px 0px 0px 10px;
+	font-weight: bolder;
+
+}
+
+.w1 {
+
+	font-size: 9.7em;
+	font-weight: bolder;
+	margin-bottom: -36px;
+
+}
+
+.w2 {
+
+	font-size: 6.55em;
+	font-weight: bolder;
+	margin-bottom: -35px;
+
+}
+
+.w3 {
+
+	font-size: 9em;
+	font-weight: bolder;
+	margin-bottom: -50px;
+
+}
+
+.w4 {
+
+	font-size: 13.4em;
+	font-weight: bolder;
+	margin-bottom: -60px;
+
+}
+
+.w5 {
+
+	font-size: 4.55em;
+	font-weight: bolder;
+	margin-bottom: -20px;
+
+}
+
+.w6 {
+
+	font-size: 7.055em;
+	font-weight: bolder;
+	margin-bottom: -35px;
+
+}
+
+.w7 {
+
+	font-size: 17em;
+	font-weight: bolder;
+
+	width: 270px;
+	margin: auto;
+	margin-bottom: -110px;
+	
+}
+
+.w8 {
+
+	display: block;
+	font-size: 10.3em;
+	
+	margin-bottom: 10px;	
+
+}
+
+.side-quote * {
+
+	font-weight: bolder;
+	color: rgba(253, 201, 29, 0.877);
+	color: rgb(202, 83, 83);
+	transition: .8s ease-in-out;
+
+}
+
+*/
+
+
+/* ----------------------------------------------------------- */
+
+/*
+.focus-container {
+
+	display: inline-block;
+	margin-top: 40px;
+
+	
+	width: 310px;
+    height: 1000px;
+	margin-right: 10px;
+	/*background-image: url("images/focus-2018.jpg");
+	background-size: 1300px 1900px;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	transition: .3s ease-in-out;
+	filter: grayscale(100%);
+	border-radius: 20px;
+
+}
+
+.focus-container img {
+
+	border-radius: 10px;
+
+}
+
+.focus-container:hover {
+
+	background-size: 1326px 1938px;
+
+}
+*/
+
+
+.important-areas {
+
+	padding: 40px 0px;
+	
+
+}
+
+.latest-news {
+
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 150px;
+	width: 660px;
+	/*border: solid 1px red;*/
+
+}
+
+.section-title-home {
+
+	min-width: 643px;
+	max-width: 500px;
+
+}
+
+.articles-column {
+
+	display: flex;
+	flex-flow: column;
+	padding: 40px 0px;
+	max-width: 320px;
+	/*border: solid 1px blue;*/
+	padding-right: 8px;
+
+}
+
+.articles-column:last-of-type {
+
+	padding-right: 0; /*last article colum has no right margin, allowing the column to align with Latest Info red underline*/
+
+}
+
+
+/*------------------------------------------- article styling -----*/
+
+
+article {
+
+	width: 305px;
+	padding: 5px;
+	margin-bottom: 12px;
+	/*height: 240px;*/
+	overflow-y: hidden;
+	border-radius: 2px;
+	border: 1px solid rgb(240, 240, 240);
+	box-shadow: 5px 5px 20px rgb(201, 201, 201);
+	transition: .5s ease-in-out;
+
+}
+
+article:hover {
+
+	transform: scale(.993);
+	box-shadow: 5px 5px 6px rgba(201, 201, 201, 0.918);
+    cursor: pointer;
+	transition: .3s ease-in-out;
+	
+}
+
+.section-title h2 {
+
+	display: block;
+	text-align: right;
+	font-weight: 600;
+	border-bottom: solid 10px rgb(202, 83, 83);
+
+}
+
+
+article h3 {
+
+	font-size: 2em;
+	font-weight: 400;
+	padding: 10px 0; 
+
+}
+
+article p {
+
+	line-height: 1.1em;
+	padding: 3px;
+
+}
+
+/*------------------------------------------------------------------------- Social Media Feed ---------------------
+
+
+
+
+
+.social-media-feed {
+
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	padding-top: 155px;
+	border: solid 1px green;
+
+}
+
+.social-media-feed h2 {
+
+	text-align: right;
+	line-height: 1em;
+	font-weight: 900;
+	font-size: 2.7em;
+	width: 234px;
+	margin-left: 60px;
+
+	border-bottom: solid 10px rgb(202, 83, 83);
+
+}
+
+
+.social-media-feed article {
+
+	width: 250px;
+	padding: 6px;
+	margin-bottom: 8px;
+	margin-left: 55px;
+	height: initial;
+
+}
+
+.social-media-feed h3 {
+
+	font-size: 1.3em;
+
+}
+
+.social-media-feed p {
+
+	font-size: .9em;
+
+}
+
+
+
+
+/*------------------------------------------------------------------------- Textbox/lgSection -------------------------*/
+
+
+.text-box {
+
+	padding: 180px 160px;
+
+}
+
+.text-box h3 {
+
+	font-size: 1.9em;
+	font-weight: 600;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: solid 10px rgb(202, 83, 83);
+
+}
+
+.text-box p {
+
+	padding: 15px 0px;
+	font-size: 1.3em;
+	font-weight: 500;
+	line-height: 1.7em;
+
+}
+
+/*------------------------------------------------------------------------- lgsection -------------------------*/
+
+.lgsection {
+
+	background-color: rgb(239, 239, 239);
+	transition: .8s ease-in-out;
+
+}
+
+/*------------------------------------------------------------------------- Info Box -------------------------*/
+
+
+.info-box {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	margin: 150px auto;
+
+}
+
+.info-box-left {
+
+	width: 250px;
+	padding: 30px 0px;
+	overflow-y: hidden;
+	padding-right: 5px;
+	text-align: right;
+	border-bottom: solid 10px rgb(202, 83, 83);
+	border-top: solid 10px rgb(202, 83, 83);
+
+}
+
+.info-box-right {
+
+	width: 250px;
+
+	padding: 40px 0 35px 0px;
+	
+	border-bottom: solid 10px rgb(202, 83, 83);
+	border-top: solid 10px rgb(202, 83, 83);
+	/*border: solid 1px purple;*/
+	
+}
+.info-box h1 {
+
+	text-align: left;
+	font-size: 5em;
+	line-height: 0.8em;
+
+}
+
+.info-box p {
+
+	font-size: 1.4em;
+	line-height: 1.3em;
+
+}
+
+
+
+/*------------------------------- About Us Page -----------*/
+
+
+.info-box-container {
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 0;
+	max-height: 600px;
+	transition: .6s ease-in-out;
+	box-shadow: 0px 0px 20px rgb(215, 215, 215)
+
+}
+
+.info-box-container .info-box {
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+
+}
+
+
+.info-box-container .info-box-left {
+
+	
+	width: 250px;
+	padding-right: 3px;
+	text-align: right;
+	border-right: solid 10px rgb(202, 83, 83);
+	border-top: 0;
+	border-bottom: 0;
+
+}
+
+.info-box-container .info-box-right {
+
+	width: 200px;
+	padding: 40px 0 35px 5px;
+	border-top: 0;
+	border-bottom: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+.info-box-container .info-box h1 {
+
+	text-align: left;
+	font-size: 5em;
+	line-height: 0.8em;
+ 
+
+}
+
+.info-box-container .info-box p {
+
+	font-size: 1.2em;
+	line-height: 1.3em;
+
+
+}
+
+.info-box-pic {
+
+	display: inline-block;
+	max-width: 700px;
+	width: 60vw;
+    height: 600px;
+	overflow-y: hidden;
+	background-image: url("images/who-we-are.jpg");
+	background-size: 1000px 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 20px rgb(215, 215, 215);
+	transition: .6s ease-in-out;
+
+}
+
+
+
+/*-------------------------------- Rest of site + Hacks --------*/ 
+
+
+.interviews-info-box-left {
+
+	width: 500px;
+
+}
+
+#info-box-small-font {
+
+	font-size: 4.35em;
+
+}
+
+#info-box-vsmall-font {
+
+	font-size: 3em;
+
+}
+
+
+
+
+/*------------------------------------------------------------------------- Manifesto ------------------------*/
+
+.manifesto {
+
+	margin: 150px auto 150px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.manifesto ul li{
+
+	font-size: 1.5em;
+	font-weight: 500;
+	line-height: 2em;
+	text-align: right;
+	margin-right: 20px;
+
+
+}
+
+.manifesto h1 {
+
+	font-size: 11em;
+	transition: .8s ease-in-out;
+
+}
+
+.manifesto:hover h1 {
+
+	color: rgb(224, 181, 39);
+	transition: .5s ease-in-out;
+	padding-left: 25px;
+
+}
+
+.manifesto ul li {
+
+	transition: .8s ease-in-out;
+
+}
+
+.manifesto:hover ul li {
+
+	color: rgb(194, 63, 63);
+	transition: .5s ease-in-out;
+	padding-right: 25px;
+	font-size: 1.53em;
+
+}
+
+.manifesto:hover {
+
+	background-color: rgb(245, 245, 245);
+	transition: .5s ease-in-out;
+
+}
+
+
+/*------------------------------------------------------------------------- Partners -------------------------*/
+
+.partner-container {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.lgsection h2 {
+
+	text-align: center;
+	font-weight: 100;
+	padding: 60px 0 50px 0;
+	color: rgb(99, 99, 99);
+
+}
+
+.lgsection img {
+
+	padding: 0 30px;
+	margin: 0px 0px 60px 0px;
+	filter: grayscale(100%);
+	transition: .4s ease-in-out;
+
+}	
+
+.lgsection img:hover {
+
+	filter: initial;
+	border-color: rgb(202, 83, 83);
+	transform: scale(1.01);
+
+} 
+
+.lg-section .divider {
+
+	height: 120px;
+	border-right: solid 1px rgb(0, 0, 0);
+
+}
+
+.margin-negative-hack {
+
+	margin-bottom: -150px 
+
+}
+
+
+/*----------------------------------------------------------------------- Research Page -----------------------*/
+
+.study {
+
+	transition: .4s ease-in-out;
+	border-radius: 2px;
+
+}
+
+.study-container {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	width: 1000px;
+	padding: 15px 0px;
+	border-radius: 5px;
+	
+
+}
+
+.study h1 {
+
+	font-size: 2.5em;
+	transition: .6s ease-in-out;
+
+}
+
+.coming-soon {
+
+	color: rgb(161, 161, 161); 
+
+}
+
+.study ul li {
+
+	text-align: right;
+	line-height: 1.8em;
+	transition: .6s ease-in-out;
+
+}
+
+.study:nth-child(2n+1) {
+
+	background-color: rgb(239, 239, 239);
+	/*background-color: rgba(255, 209, 60, 0.178);*/
+	
+
+}
+
+.study:hover {
+
+	transform: scale(1.005);
+	transition: .2s ease-in-out;
+	/*background-color: rgb(226, 225, 225);*/
+	background-color: rgba(236, 190, 39, 0.61);
+	/*background-color: rgba(202, 83, 83, 0.575);*/
+	box-shadow: 0px 0px 15px #d8d8d8;
+
+}
+
+aside p {
+
+	margin: 40px 150px 120px 150px;
+	text-align: center;
+	line-height: 1.3em;
+	
+}
+
+aside p a, span {
+
+	color: rgb(202, 83, 83);
+
+}
+
+aside p a:hover {
+
+	color: rgb(236, 190, 39);
+
+}
+
+.report h1 {
+
+	font-size: 2em;
+	line-height: 1.1em;
+	width: 400px;
+
+}
+
+/*------------------------------------------------------------------------- Get Involved -------------------------*/
+
+.contact-top {
+
+	text-align: center;
+	margin: 150px auto 50px;
+
+}
+
+.contact-top h2 {
+
+	font-size: 4em;
+	font-weight: bold;
+	padding-top: 25px;
+	margin-bottom: 25px;
+	border-bottom: solid 6px rgb(224, 181, 39);
+
+}
+.contact-top p {
+
+	font-size: 1.2em;
+	line-height: 1.4em;
+	margin: 1em auto;
+	width: 950px;
+
+}
+
+.contact-soc-media {
+
+	display: flex;
+	justify-content: center;
+	
+}
+
+.contact-soc-media img{
+
+	margin: 50px 100px;
+	transition: .6s ease-in-out;
+
+}
+
+.contact-soc-media .divider {
+
+	height: 5px;
+	width: 5px;
+	margin: auto 10px;
+	border-radius: 50%;
+	/*border: solid 1px rgb(214, 214, 214);*/
+	background-color: rgb(224, 181, 39);
+
+}
+
+.contact-soc-media img:hover {
+
+	transform: scale(1.25);
+	transition: .3s ease-in-out;
+	cursor: pointer;
+
+}
+
+.contact-bottom p {
+
+	text-align: center;
+	margin: 70px auto;
+	width: 800px;
+	line-height: 1.4em;
+
+
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------- Interview ------------------------*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/* ------ Tabs ------ */
+
+
+.interview-tab {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 330px;
+	margin: 85px 0px;
+	
+
+}
+
+.interview-section {
+
+	margin-top: 10px;
+	padding: 0;
+
+}
+
+
+.interview-tab-img {
+
+	display: inline-block;
+	width: 500px;
+    height: 300px;
+	overflow: hidden;
+	border-radius: 2px;
+	box-shadow: 3px 3px 7px rgb(161, 161, 161);
+	transition: .6s ease-in-out;
+
+
+}
+
+
+.interview-tab img {
+
+	border-radius: 2px;
+	transition: .8s ease-in-out;
+
+}
+
+.interview-tab-info {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 300px;
+	width: 440px;
+	padding: 25px;
+
+
+}
+
+.interview-tab p {
+
+	font-style: italic;
+	line-height: 1.2em;
+
+}
+
+.interview-tab h2 {
+
+	transition: .5s ease-in-out;
+
+}
+
+.interive-tab {
+
+	transition: .6s ease-in-out;
+
+}
+
+
+
+
+
+.interview-tab:hover {
+
+	transition: .4s ease-in-out;
+
+}
+
+.interview-tab:hover .interview-tab-img {
+
+	transform: scale(1.025);
+	transition: .4s ease-in-out;
+	cursor: pointer;
+	box-shadow: 3px 3px 20px rgb(161, 161, 161);
+
+}
+
+
+
+.interview-tab:hover h2 {
+
+	color: rgb(236, 190, 39);
+	transition: .3s ease-in-out;
+
+}
+
+.interview-tab:hover .interview-tab-info {
+
+	transition: .3s ease-in-out;
+	cursor: pointer;
+
+}
+
+
+.interview-tab:nth-child(2n+1) {
+
+	text-align: right;
+
+}
+
+
+
+
+.interview-whole + .divider {
+
+	margin: auto;
+	width: 850px;
+	border-bottom: solid 1px rgba(182, 182, 182, 0.603);
+
+}
+
+
+
+/*------------------------------ Layout ----------------------------*/
+
+
+.interview-whole {
+
+	padding: 50px 0px;
+	opacity: 100%;
+	display: none;
+	
+}
+
+
+/*--------------------- Top of interview layout, image and deets (name, business, etc) ---------------------*/
+
+
+.interview-whole img {
+
+	display: inline-block;
+
+}
+
+.interview-top {
+
+	display: none;
+	align-items: flex-start;
+
+}
+
+.interview-deets {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0px 27px;
+	width: 470px;
+	min-height: 290px;
+	text-align: initial;
+
+}
+
+/*--------------------- flexbox dealing with the styling of the name/business etc ---------------------*/
+
+.row {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-bottom: solid 1px lightgrey;
+	/*border: solid 1px red;*/
+
+}
+
+.row:last-child {
+
+	border: none;
+
+}
+
+.row p {
+
+	width: 130px;
+	margin: 10px;
+	font-style: initial;
+	color: rgb(202, 83, 83);
+
+	
+
+}
+
+.row h2 {
+
+	padding: 5px 0px;
+	text-align: right;
+	width: 270px;
+	max-width: 300px;
+
+	font-weight: 700;
+	font-size: 2em;
+	text-align: left;
+
+}
+
+
+
+/*-------------------------- Font styling -------------------------*/
+
+/*----------------------Main interview Section Layout */
+
+
+
+.ques-ans-row {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	height: 100%;
+	width: 1050px;
+	padding: 30px 0px;
+	border-bottom: solid 1px lightgrey;
+	
+
+}
+
+.ques-ans-row p {
+
+	width: 200px;
+	line-height: 1.6em;
+	padding: 5px 15px;
+	color: rgb(202, 83, 83);
+	
+
+}
+
+.ques-ans-row h3 {
+
+	font-size: 1.3em;
+	font-weight: 700;
+	line-height: 1.8em;
+	padding: 5px 0px;
+	max-width: 750px;
+	
+
+}
+
+.ques-ans-row:last-child {
+
+	border: none;
+
+}
+
+
+
+
+/*---------Karet Page --------*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------- Footer -------------------------*/
+
+footer {
+
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(236, 190, 39);
+	padding: 50px 0px;
+	box-shadow: 0px -5px 20px rgb(201, 201, 201);
+	margin-top: 150px;
+
+}
+
+.footer-container {
+
+	display: flex;
+	justify-content: space-around;
+	width: 900px;
+
+}
+
+
+footer h4 {
+
+	font-size: 1.2em;
+	line-height: 1.1em;
+	font-weight: 900;
+	margin-bottom: 10px;
+	border-bottom: solid 5px rgb(202, 83, 83);
+	
+
+
+}
+
+footer p {
+
+	padding:0px;
+	font-size: 1em;
+	line-height: 1.2em;
+	
+	
+
+}
+
+footer ul li {
+
+	line-height: 1.3em;
+	
+
+}
+
+
+
+footer address img {
+
+	margin-right: 20px;
+
+}
+
+
+
+/*Homepage2*/
+
+.home-page2 {
+
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+
+}
+
+.lg-section2 {
+
+	width: 100%;
+
+}
+
+.focus-container2, .focus-container3, .focus-container4 {
+
+	display: inline-block;
+
+	width: 330px;
+    height: 1000px;
+
+	background-image: url("images/focus-2018.jpg");
+	background-size: 1300px 1900px;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow:hidden;
+
+
+	transition: .3s ease-in-out;
+	filter: grayscale(100%);
+
+}
+
+.focus-container3{
+
+	background-image: url("images/home2-test.jpg");
+	background-size: 3000px 1900px;
+
+}
+
+.focus-container4{
+
+	background-image: url("images/home2-test2.jpg");
+	background-size: 3000px 1900px;
+
+}
+
+.focus-container2:hover, .focus-container3:hover, .focus-container4:hover {
+
+	width: 2000px;
+	filter: grayscale(0%);
+
+}
